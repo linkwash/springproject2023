@@ -1,0 +1,46 @@
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-form form,
+.register-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-form input,
+.register-form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.login-form button,
+.register-form button {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.login-form p,
+.register-form p {
+  margin-top: 1rem;
+}
+
+.login-form a,
+.register-form a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.login-form a:hover,
+.register-form a:hover {
+  text-decoration: underline;
+}
